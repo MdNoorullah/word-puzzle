@@ -21,7 +21,7 @@ app.get('/word', (req, res) => {
         }
     }
     axios.request(options).then((response) => {
-        // console.log(response.data)
+         console.log(response.data)
         res.json(response.data[0])
     }).catch((error) => {
         console.error(error)

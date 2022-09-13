@@ -1,8 +1,9 @@
 * {
-    color: #ffffff;
+    color:white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
+
 
 body {
     background-color: #121213;
@@ -26,7 +27,16 @@ body {
     width: 330px;
     margin-bottom: 30px;
 }
-
+#popup-message
+{
+    color: white;
+}
+button#close{
+    color: #121213;
+}
+button#replay{
+    color: #121213;
+}
 .key-container {
     width: 510px;
     display: flex;
