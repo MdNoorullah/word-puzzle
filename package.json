@@ -6,9 +6,8 @@
   "scripts": {
     
     "frontend": "cd frontend && nodemon app.js",
-    "api": "cd api && nodemon index.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run api\" \"npm run frontend\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "start:backend": " nodemon index.js",
+    
    
   },
   "author": "Md Noorullah",
